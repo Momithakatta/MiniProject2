@@ -13,6 +13,8 @@
 		A8991E2026850F6C00E5A29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8991E1E26850F6C00E5A29A /* Main.storyboard */; };
 		A8991E2226850F6D00E5A29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8991E2126850F6D00E5A29A /* Assets.xcassets */; };
 		A8991E2526850F6D00E5A29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8991E2326850F6D00E5A29A /* LaunchScreen.storyboard */; };
+		A8991E2D26862E6300E5A29A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8991E2C26862E6300E5A29A /* SecondViewController.swift */; };
+		A8991E2F2686325E00E5A29A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8991E2E2686325E00E5A29A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A8991E2126850F6D00E5A29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8991E2426850F6D00E5A29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8991E2626850F6D00E5A29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8991E2C26862E6300E5A29A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A8991E2E2686325E00E5A29A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A8991E2126850F6D00E5A29A /* Assets.xcassets */,
 				A8991E2326850F6D00E5A29A /* LaunchScreen.storyboard */,
 				A8991E2626850F6D00E5A29A /* Info.plist */,
+				A8991E2C26862E6300E5A29A /* SecondViewController.swift */,
+				A8991E2E2686325E00E5A29A /* ThirdViewController.swift */,
 			);
 			path = MiniProject2;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8991E2D26862E6300E5A29A /* SecondViewController.swift in Sources */,
 				A8991E1D26850F6C00E5A29A /* ViewController.swift in Sources */,
+				A8991E2F2686325E00E5A29A /* ThirdViewController.swift in Sources */,
 				A8991E1926850F6C00E5A29A /* AppDelegate.swift in Sources */,
 				A8991E1B26850F6C00E5A29A /* SceneDelegate.swift in Sources */,
 			);
@@ -284,7 +292,6 @@
 		A8991E2A26850F6D00E5A29A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MiniProject2/Info.plist;
@@ -302,7 +309,6 @@
 		A8991E2B26850F6D00E5A29A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MiniProject2/Info.plist;
